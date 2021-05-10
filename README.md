@@ -16,8 +16,8 @@ Features
  6. View user or all created users
 
 Setup
- 1. Create an **.env file** (template given below).
- 2. Create a **.credentials** file under `C:\Users\{user}\.aws\` (template given below).
+ 1. Create an **.env** file (template given below).
+ 2. Create a **credentials** file under `C:\Users\{user}\.aws\` (template given below).
  3. Run **npm install** in the root directory of the folder.
 
 To run the project, run **npm start**. It will create a web server under the port 5000, assuming it is available.
@@ -37,3 +37,22 @@ All API Routes
  8. POST /api/users/register - Registers a new user in the database.
  9. GET /api/users/u/{USER_ID}/ - Retrieves information of the user (as well as their uploaded [public] images).
  10. POST /api/users/u/{USER_ID}/upload - Uploads one or more (up to 5) images to the server under this user's id.
+
+.env Template
+`FIREBASE_API_KEY=
+FIREBASE_AUTH_DOMAIN=
+FIREBASE_DATABASE_URL=
+FIREBASE_PROJECT_ID=
+FIREBASE_STORAGE_BUCKET=
+FIREBASE_MESSAGING_SENDER_ID=
+FIREBASE_APP_ID=
+FIREBASE_MEASUREMENT_ID=
+
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY_ID=
+AWS_BUCKET_NAME=`
+
+credentials Template
+`[default]
+aws_access_key_id=
+aws_secret_access_key=`
