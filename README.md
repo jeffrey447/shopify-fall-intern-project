@@ -17,7 +17,7 @@ Features
 
 Setup
  1. Create an **.env file** (template given below).
- 2. Create a **.credentials** file under **C:\Users\{user}\.aws\** (template given below).
+ 2. Create a **.credentials** file under `C:\Users\{user}\.aws\` (template given below).
  3. Run **npm install** in the root directory of the folder.
 
 To run the project, run **npm start**. It will create a web server under the port 5000, assuming it is available.
