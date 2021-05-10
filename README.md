@@ -2,7 +2,9 @@
 # Shopify Fall 2021 Intern Challenge
 
 Task: **To build a simple image repository.**
+
 Created by: **Jeffrey Ha** ([LinkedIn](https://www.linkedin.com/in/hajeffrey/), [Github](https://github.com/jeffrey447), [Devpost](https://devpost.com/jeffrey447))
+
 Technologies used: **Node.js, Express.js, Firebase, Amazon S3, Multer, Mocha Chai**
 
 Features
