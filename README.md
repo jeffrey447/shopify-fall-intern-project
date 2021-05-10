@@ -39,7 +39,8 @@ All API Routes
  10. POST /api/users/u/{USER_ID}/upload - Uploads one or more (up to 5) images to the server under this user's id.
 
 .env Template
-```FIREBASE_API_KEY=
+```
+FIREBASE_API_KEY=
 FIREBASE_AUTH_DOMAIN=
 FIREBASE_DATABASE_URL=
 FIREBASE_PROJECT_ID=
@@ -50,9 +51,12 @@ FIREBASE_MEASUREMENT_ID=
 
 AWS_ACCESS_KEY_ID=
 AWS_SECRET_ACCESS_KEY_ID=
-AWS_BUCKET_NAME=```
+AWS_BUCKET_NAME=
+```
 
 credentials Template
-```[default]
+```
+[default]
 aws_access_key_id=
-aws_secret_access_key=```
+aws_secret_access_key=
+```
